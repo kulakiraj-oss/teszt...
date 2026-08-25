@@ -10,6 +10,7 @@
             padding: 0;
             box-sizing: border-box;
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            scroll-behavior: smooth;
         }
 
         body {
@@ -52,6 +53,7 @@
             text-decoration: none;
             font-size: 15px;
             transition: color 0.3s;
+            cursor: pointer;
         }
 
         nav a:hover {
@@ -97,6 +99,7 @@
             font-weight: bold;
             transition: opacity 0.3s, transform 0.2s;
             display: inline-block;
+            cursor: pointer;
         }
 
         .btn:hover {
@@ -256,8 +259,8 @@
         </div>
         <nav>
             <a href="#">UCP</a>
-            <a href="#">Segítség</a>
-            <a href="#">Közösség</a>
+            <a href="#letoltes">Segítség</a>
+            <a href="https://discord.gg/7XKZvapgq" target="_blank">Közösség</a>
             <a href="#">Szerver Szabályzat</a>
         </nav>
     </header>
@@ -267,14 +270,14 @@
         <img src="logo.png" alt="RarherMTA Logo" class="hero-logo">
         <h1>RARHERMTA</h1>
         <p>Kezdd el a saját RP Karaktered a RARHERMTA szerverén, és alakítsd úgy a karaktered - ahogyan szeretnéd!</p>
-        <a href="#" class="btn">Csatlakozz most</a>
+        <a href="https://multitheftauto.com/" target="_blank" class="btn">Csatlakozz most</a>
     </section>
 
     <!-- Container -->
     <div class="container">
 
-        <!-- Csatlakozási információk kártya -->
-        <div class="card">
+        <!-- Csatlakozási információk kártya (Segítség célpontja) -->
+        <div class="card" id="letoltes">
             <div class="card-text">
                 <h2>Csatlakozás a RARHERMTA szerverére</h2>
                 <p><strong>Légy részese Magyarország legújabb és legdinamikusabban fejlődő RolePlay közösségének!</strong></p>
@@ -286,10 +289,9 @@
                     <li>4. RARHERMTA szócska begépelése a keresőbe</li>
                 </ol>
                 <p style="color: #38bdf8; font-size: 14px; margin-bottom: 20px;">Kellemes időtöltést kívánunk!</p>
-                <a href="#" class="btn">MTA:SA letöltése</a>
+                <a href="https://multitheftauto.com/" target="_blank" class="btn">MTA:SA letöltése</a>
             </div>
             <div class="monitor-mockup">
-                <!-- Helyettesíthető a monitor képpel -->
                 <img src="monitor.png" alt="Monitor Preview">
             </div>
         </div>
